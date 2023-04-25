@@ -40,3 +40,4 @@ dependencies:
     - pathos>=0.2.9
     - scikit-fda>=0.8.1
     - coloredlogs>=15.0
+    - types-PyYAML
