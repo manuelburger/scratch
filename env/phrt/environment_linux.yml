@@ -36,6 +36,7 @@ dependencies:
   - tensorboard>=2.11.0
   - coolname>=2.2.0
   - wandb>=0.14.0
+  - lightgbm>=3.3.5
   - pip:
     - pathos>=0.2.9
     - scikit-fda>=0.8.1
