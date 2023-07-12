@@ -9,7 +9,7 @@ channels:
 dependencies:
   - python=3.9
   - pytorch::pytorch-cuda=11.7
-  - pytorch::pytorch>=1.13
+  - pytorch::pytorch>=2.0.0
   - pytorch::torchvision>=0.14.1
   - pytorch::torchaudio>=0.13.1
   - pytorch-lightning>=1.9.3
