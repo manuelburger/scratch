@@ -43,3 +43,4 @@ dependencies:
     - scikit-fda>=0.8.1
     - coloredlogs>=15.0
     - types-PyYAML
+    - reportlab>=4.0.4
