@@ -13,8 +13,8 @@ dependencies:
   - pytorch::torchvision>=0.14.1
   - pytorch::torchaudio>=0.13.1
   - pytorch-lightning>=1.9.3
-  - numpy>=1.23.5
-  - pandas>=1.5.2
+  - numpy=1.23 # TODO: update to 1.24
+  - pandas<2.0 # TODO: update to 2.0+
   - scikit-learn>=1.2.0
   - jupyter>=1.0.0
   - jupyterlab>=3.5.3
