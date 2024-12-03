@@ -8,13 +8,13 @@ channels:
   
 dependencies:
   - python=3.9
-  - pytorch::pytorch-cuda=11.8
-  - pytorch::pytorch=2.1
+  - pytorch::pytorch-cuda=11.7
+  - pytorch::pytorch>=2.0.0
   - pytorch::torchvision>=0.14.1
   - pytorch::torchaudio>=0.13.1
-  - pytorch-lightning>=1.9.3,<2.0.0
-  - numpy=1.23 # TODO: update to 1.24
-  - pandas<2.0 # TODO: update to 2.0+
+  - pytorch-lightning>=1.9.3
+  - numpy==1.26.4
+  - pandas==2.2.2
   - scikit-learn>=1.2.0
   - jupyter>=1.0.0
   - jupyterlab>=3.5.3
@@ -26,7 +26,7 @@ dependencies:
   - mypy==0.981
   - pip>=21.0.1
   - tqdm>=4.64
-  - pyarrow>=8.0.0
+  - pyarrow==14.0.2
   - pytables>=3.7.0
   - black==22.6.0
   - isort==5.9.3
@@ -43,4 +43,3 @@ dependencies:
     - scikit-fda>=0.8.1
     - coloredlogs>=15.0
     - types-PyYAML
-    - reportlab>=4.0.4
